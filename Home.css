@@ -1,0 +1,130 @@
+.home{
+  display: flex;
+  height: 70vh;
+}
+
+.home .home-one {
+  width: 60%;
+  height: 100vh;
+  background-image: url(../../../public/images/desktop-image-hero-1.jpg);
+}
+
+.gow{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 3rem;
+}
+
+.gow .links {
+  display: flex;
+  gap:2rem;
+}
+
+.gow .links a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.home-two {
+  width: 40%;
+  
+}
+
+.homeee{
+  padding: 4rem 6rem;
+  height: 300px;
+}
+
+.home-two h1{
+  font-size: 40px;
+}
+
+.home-two p {
+  color: var(--Grey-500);
+  padding: 20px 0;
+  line-height: 1.4;
+  font-size: 14px;
+}
+
+.home-two span{
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.home-two .arrows{
+  background-color: #111;
+  text-align: start;
+  margin-top: 6.82rem;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  cursor: pointer;
+}
+
+.fixed {
+  position: fixed;
+  z-index: 9999;
+  background-color: #fff;
+  width: 100%;
+  height: 90px;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  gap: 9rem;
+  padding: 03rem;
+  cursor: pointer;
+}
+
+.fixed .link{
+  display: flex;
+  gap: 30px;
+}
+
+.fixed .link a{
+  text-decoration: none;
+  color: #111;
+  font-weight: 600;
+}
+
+.humbur{
+  display: none;
+}
+
+
+@media (max-width:750px) {
+  .gow{
+    gap: 6rem;
+  }
+  .gow .links{
+    display: none;
+  }
+  .humbur{
+    display: flex;
+    cursor: pointer;
+  }
+  .home{
+    flex-direction: column;
+  }
+  .home .home-one {
+    width: 100%;
+    height: 100vh;
+  }
+  .home-two{
+    width: 100%;
+  }
+  .homeee{
+    padding: 4rem 3rem;
+    height: 300px;
+  }
+  .home-two h1{
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,27 @@
+.down{
+  display: flex;
+}
+
+.down .pag{
+  padding: 3.5rem 3rem;
+}
+
+.down .pag h3{
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 6px;
+}
+
+.down .pag p {
+  color: var(--Grey-500);
+  padding-top: 20px;
+  line-height: 1.3;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@media (max-width:750px) {
+  .down{
+    flex-direction: column;
+  }
+}
